@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Web Shop]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Demo Web Shop Test(failed)">
+    <classes>
+      <class name="com.up.qa.testcases.workOrderPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="clickOnAddWorkLink"/>
+        </methods>
+      </class> <!-- com.up.qa.testcases.workOrderPageTest -->
+    </classes>
+  </test> <!-- Demo Web Shop Test(failed) -->
+</suite> <!-- Failed suite [Demo Web Shop] -->

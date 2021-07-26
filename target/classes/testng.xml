@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="onupkeep">
+
+  <test name="onupkeep">
+    <classes>
+      <class name="com.up.qa.testcases.LoginPageTest"/>
+      <class name="com.up.qa.testcases.SignUpPageTest"/>
+       <class name="com.up.qa.testcases.workOrderPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
